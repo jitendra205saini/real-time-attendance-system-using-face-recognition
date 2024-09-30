@@ -1,35 +1,40 @@
-# real-time-attendance-system-using-face-recognition
+# Face Recognition Attendance System
 
-# Face Detection and Dataset Collection
+This project implements a face recognition attendance system using OpenCV's LBPH (Local Binary Patterns Histograms) algorithm. The system detects faces in real-time from the webcam, recognizes individuals, and logs their attendance in an Excel file.
 
-This Python script captures images from your webcam and saves cropped face images into a designated folder. It's ideal for creating a dataset for face recognition or training purposes.
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Directory Structure](#directory-structure)
+- [Code Overview](#code-overview)
+  - [1. Face Image Collection](#1-face-image-collection)
+  - [2. Model Training](#2-model-training)
+  - [3. Real-time Face Recognition and Attendance Logging](#3-real-time-face-recognition-and-attendance-logging)
+- [Usage](#usage)
+- [Attendance Logging](#attendance-logging)
+- [Error Handling](#error-handling)
+- [Notes](#notes)
+- [License](#license)
+
+## Features
+
+- Real-time face detection and recognition using a webcam.
+- Attendance logging in an Excel file.
+- Confidence score for face recognition.
+- User-friendly interface with feedback on recognized faces.
 
 ## Requirements
 
-Before running the script, make sure you have the following installed:
-
-- Python 3.x
-- OpenCV (`opencv-python` and `opencv-contrib-python` packages)
-- Numpy
-
-You can install the required packages using pip:
-
-```bash
-pip install opencv-python opencv-contrib-python numpy
-
-# Face Recognition Model Training
-
-This script is designed to train a face recognition model using the LBPH (Local Binary Patterns Histograms) algorithm. It reads face images from specified folders, assigns labels, and trains a face recognition model, which can later be used for detecting and recognizing faces.
-
-## Requirements
-
-Make sure you have the following dependencies installed before running the script:
+Ensure you have the following packages installed:
 
 - Python 3.x
 - OpenCV (`opencv-python` and `opencv-contrib-python` for the face module)
 - NumPy
+- Pandas
+- `openpyxl` (for reading/writing Excel files)
 
-To install the necessary packages, run:
+You can install the necessary packages using the following command:
 
 ```bash
-pip install opencv-python opencv-contrib-python numpy
+pip install opencv-python opencv-contrib-python numpy pandas openpyxl
