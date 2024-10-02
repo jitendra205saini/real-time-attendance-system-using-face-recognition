@@ -1,4 +1,4 @@
-Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]((https://www.linkedin.com/in/jitendarkumarsaini25/))
+Follow me on LinkedIn : [click](https://www.linkedin.com/in/jitendarkumarsaini25/)
 
 # Face Recognition Attendance System
 
