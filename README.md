@@ -6,15 +6,15 @@ This project implements a face recognition attendance system using OpenCV's LBPH
 
 - [Features](#features)
 - [Requirements](#requirements)
-- [Directory Structure](#directory-structure)
-- [Code Overview](#code-overview)
-  - [1. Face Image Collection](#1-face-image-collection)
-  - [2. Model Training](#2-model-training)
-  - [3. Real-time Face Recognition and Attendance Logging](#3-real-time-face-recognition-and-attendance-logging)
-- [Usage](#usage)
-- [Attendance Logging](#attendance-logging)
-- [Error Handling](#error-handling)
-- [Notes](#notes)
+- Directory Structure
+- Code Overview
+  - 1. Face Image Collection
+  - 2. Model Training
+  - 3. Real-time Face Recognition and Attendance Logging
+- Usage
+- Attendance Logging
+- Error Handling
+- Notes
 - [License](#license)
 
 ## Features
