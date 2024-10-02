@@ -1,3 +1,5 @@
+Follow me on LinkedIn : [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]((https://www.linkedin.com/in/jitendarkumarsaini25/))
+
 # Face Recognition Attendance System
 
 This project implements a face recognition attendance system using OpenCV's LBPH (Local Binary Patterns Histograms) algorithm. The system detects faces in real-time from the webcam, recognizes individuals, and logs their attendance in an Excel file.
